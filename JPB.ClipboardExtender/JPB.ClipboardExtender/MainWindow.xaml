@@ -1,0 +1,12 @@
+﻿<Window x:Class="JPB.ClipboardExtender.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:ViewModel="clr-namespace:JPB.ClipboardExtender.ViewModel"
+        Title="MainWindow" Height="350" Width="525">
+    <Window.DataContext>
+        <ViewModel:MainWindowViewModel />
+    </Window.DataContext>
+    <Grid>
+        
+    </Grid>
+</Window>
